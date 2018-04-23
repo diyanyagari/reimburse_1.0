@@ -1,0 +1,28 @@
+<h1 mat-dialog-title>Silahkan diisi</h1>
+<div mat-dialog-content>
+  <mat-form-field style="width: 100%">
+    <input matInput placeholder="Nama" name="name" [(ngModel)]="name">
+  </mat-form-field>
+  <mat-form-field style="width: 100%">
+    <input matInput placeholder="Email" name="email" [(ngModel)]="email">
+  </mat-form-field>
+  <mat-form-field style="width: 100%">
+    <input matInput placeholder="Password" name="password" [(ngModel)]="password">
+  </mat-form-field>
+  <mat-form-field style="width: 100%">
+    <input matInput placeholder="Role" name="role" [(ngModel)]="role">
+  </mat-form-field>
+
+   <button class="button-new" mat-raised-button color="primary" (click)="onCreate(name, email, password, role)" >Create</button>
+<!-- 
+  <mat-form-field>
+    <textarea matInput placeholder="Textarea"></textarea>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-select placeholder="Select">
+      <mat-option value="option">Option</mat-option>
+    </mat-select>
+  </mat-form-field> -->
+
+</div>

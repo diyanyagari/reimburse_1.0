@@ -1,0 +1,55 @@
+@import url('//ajax.googleapis.com/ajax/libs/angular_material/0.8.3/angular-material.min.css');
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700,500,300,100);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+.login-form {
+  md-card {
+    padding: 0!important;
+
+    md-card-title {
+      background-color: blue;
+    }
+  }
+}
+
+body{
+	background-image: url("header-bg-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+md-card{	
+	padding: 0!important;
+}
+
+.form-login{
+	background-color: white;
+	border-radius: 5px;
+	width: 400px;
+	opacity: 0.5;
+	margin: auto;
+	padding: 10px;
+	margin-top: 10%;
+}
+
+.content-form{
+	width: 100%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container > * {
+  width: 100%;
+}
